@@ -1,0 +1,201 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    width: auto;
+    height: 412px;
+    background: linear-gradient(0deg, rgba(1,132,233,0.27) 0%, rgba(1,132,233,0.27) 35%) #0395F0;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo {
+    display: inline-block;
+    height: 60px;
+    width: auto;
+    margin-top: 45px;
+}
+.h3 {
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0em;
+    text-align: left;
+    height: 128px;
+    width: 343px;
+    top: 217px;
+    position: absolute;
+    color: #fff;
+}
+.box {
+    width: auto;
+    height: 500px;
+    margin-top: 134px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px 3px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+}
+form {
+    margin: auto;
+    display: table;
+}
+.form-group1 {
+    margin-top: 40px;
+    border-radius: 7px;
+}
+.form-group2, .form-group3 {
+    margin-top: 31px;
+    border-radius: 7px;
+}
+.form-group4 {
+    margin-top: 55px;
+}
+input#exampleInputEmail1 {
+    height: 59px;
+    width: 438px;
+    background: #F2F2F2;
+}
+input#exampleInputPassword1 {
+    height: 59px;
+    width: 438px;
+    background: #F2F2F2;
+}
+.form-title {
+    height: 30px;
+    width: 211px;
+    left: 2223px;
+    margin-top: 41px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.btn {
+    height: 59px;
+    width: 438px;
+    position: relative;
+    top: 40px;
+    border-radius: 6px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+/* .link {
+    width: 217px;
+    height: 26px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    text-align: center;
+    color: #8B8B8B;
+    position: relative;
+    top: 68px;
+} */
+/* @media (max-width: 1399px) and (min-width: 950px) {
+    form {
+        margin: auto;
+        display: table;
+    }
+    .form-group1 {
+        margin-top: 86px;
+        border-radius: 7px;
+    }
+    .form-group2, .form-group3 {
+        margin-top: 31px;
+        border-radius: 7px;
+    }
+    input#exampleInputEmail1 {
+        height: 59px;
+        width: 313px;
+    }
+    input#exampleInputPassword1 {
+        height: 59px;
+        width: 313px;
+        background: #F2F2F2;
+    }
+    .btn {
+        height: 59px;
+        width: 313px;
+    }
+    .box {
+        margin-left: 50%;
+    }
+} */
+
+@media (max-width: 949px) and (min-width: 650px) {
+    form {
+        margin: auto;
+        display: table;
+    }
+    .form-group1 {
+        margin-top: 86px;
+        border-radius: 7px;
+    }
+    .form-group2, .form-group3 {
+        margin-top: 31px;
+        border-radius: 7px;
+    }
+    .form-group4 {
+        margin-top: 55px;
+    }
+    input#exampleInputEmail1 {
+        height: 59px;
+        width: 313px;;
+    }
+    input#exampleInputPassword1 {
+        height: 59px;
+        width: 313px;;
+        background: #F2F2F2;
+    }
+    .btn {
+        height: 59px;
+        width: 313px;
+    }
+    .box {
+        margin-left: 50%;
+    }
+}
+
+@media (max-width: 649px) {
+    form {
+        margin: auto;
+        display: table;
+    }
+    .form-group4 {
+        margin-top: 55px;
+    }
+    input#exampleInputEmail1 {
+        height: 59px;
+        width: 280px;
+    }
+    input#exampleInputPassword1 {
+        height: 59px;
+        width: 280px;
+        background: #F2F2F2;
+    }
+    .btn {
+        height: 59px;
+        width: 313px;
+    }
+    #logo {
+        display: flex;
+        justify-content: center;
+        height: 60px;
+        width: auto;
+        margin-top: 45px;
+    }
+}
